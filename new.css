@@ -1,0 +1,37 @@
+
+.main{
+    background-color: aquamarine;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+
+
+    }
+
+.btn{
+    display: inline-block;
+    position: relative ;
+    top: 50%;
+    text-decoration: none;
+    background-color: white;
+    color: #777;
+    border-radius: 25px;
+    padding: 15px;
+    text-transform: uppercase;
+    animation-name: movetop;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode:forwards;
+    box-shadow: 0px 15px 8px grey; rgba(15px, 20px, 20px, 0.6);
+}
+ .main h1 span{
+     display: block;
+     color:white;
+ }
+
+@keyframes movetop{
+    from{transform:translateY(30px); opacity:0;}
+    to{ transform: translateY(0px)    }
+}
+
+
